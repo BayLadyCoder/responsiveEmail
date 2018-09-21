@@ -6,9 +6,55 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Responsive Email Design</title>
+    <style>
+        @media screen and (max-width: 600px) {
+
+            table[class="responsive-table"] {
+                width: 100% !important;
+                padding: 10px 5%;
+            }
+
+            table[class="responsive-table"] {
+                width: 100% !important;
+            }
+
+            img[class="responsive-image"] {
+                max-width: 100% !important;
+
+            }
+
+            td[class="headline"] {
+                font-size: 36px !important;
+                background: #222222;
+                color: #ffffff;
+                padding-bottom: 20px;
+            }
+        }
+    </style>
 </head>
 
 <body>
+
+    <!--FULL WIDTH CONTAINER-->
+    <table width="100%" cellspacing="0" cellpadding="0" border="0">
+        <tr>
+            <td align="center">
+                <table width="100%" cellspacing="0" cellpadding="0" border="0" class="responsive-table">
+                    <tr>
+                        <td align="center">
+                            <img src="Adults.png" alt="Group of Adults Image" width="600" height="auto" class="responsive-image">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center" style="font-size: 48px; padding-top: 20px;" class="headline">
+                            I &hearts; WebDev</td>
+                    </tr>
+                </table>
+
+            </td>
+        </tr>
+    </table>
+
 
 </body>
 
